@@ -1,7 +1,8 @@
 const form = document.getElementById("job-form");
 const statusDiv = document.getElementById("status");
 // const APIurl = "https://linkedinjobscraper.azurewebsites.net";
-const APIurl = "http://localhost:8000";
+// const APIurl = "http://localhost:8000";
+const APIurl = 'http://172.178.105.46:8000';
 // const APIurl = "linkedinjobscraper.eastus.cloudapp.azure.com";
 
 form.addEventListener("submit", async (e) => {  
