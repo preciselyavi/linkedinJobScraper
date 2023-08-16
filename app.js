@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 import path from "path";
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 80;
 
 // Serve static 
 app.use(express.static(path.join(path.resolve(), ".")));
